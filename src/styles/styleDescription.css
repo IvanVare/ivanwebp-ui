@@ -1,0 +1,41 @@
+.aboutUs-content {
+  background-color: rgb(43, 43, 43);
+  color: aliceblue;
+}
+
+.appcontent-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+  background: rgb(108, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(108, 0, 0, 1) 0%,
+    rgba(255, 0, 48, 1) 60%,
+    rgba(194, 30, 7, 1) 73%
+  );
+}
+
+.image-container {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text-container {
+  flex: 1;
+  padding: 20px;
+}
+
+.text-container h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
