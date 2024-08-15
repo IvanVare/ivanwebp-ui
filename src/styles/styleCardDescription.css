@@ -1,0 +1,25 @@
+.container-card {
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #0000004d;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 5px 5px hsla(0, 0%, 0%, 0.432);
+  background-color: #fff;
+  color: black;
+}
+
+.cardBase {
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #991b1b;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
