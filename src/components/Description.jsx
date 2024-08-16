@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/styleDescription.css";
-import imagen from "../assets/images/imagen2.png";
 
 export default function Description() {
   return (
@@ -21,6 +20,10 @@ export default function Description() {
                   ante cualquier desafío, además de aprender y crecer
                   profesionalmente. Buen desempeño y organización en equipo.
                 </p>
+                <br />
+                <p>Correo electronico</p>
+                <br />
+                <p>Contactame whatsapp</p>
                 <a href="/leadership-team" className="link"></a>
                 <svg
                   width="20"

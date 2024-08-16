@@ -24,6 +24,9 @@ export default function NavBarP() {
               </li>
               <li>
                 <button>Descargar CV</button>
+                <li>
+                  <button>Cambiar de tema</button>
+                </li>
               </li>
             </ul>
           </div>

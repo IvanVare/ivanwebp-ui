@@ -16,8 +16,8 @@ export default function Home() {
 
     scrollR.reveal(`.container-cards-group`, {
       origin: "left",
-      delay: "375",
-      reset: true,
+      delay: "200",
+      reset: false,
     });
   });
   return (
