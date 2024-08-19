@@ -22,7 +22,6 @@ export default function Home() {
   });
   return (
     <>
-      <NavBarP></NavBarP>
       <Description></Description>
       <CardDescription></CardDescription>
       <CardProject />

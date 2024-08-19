@@ -7,10 +7,10 @@ export default function Description() {
       <div className="min-h-screen ">
         <div>
           <div>
-            <div className="appcontent-section">
+            <div className="appcontent-section text-center">
               <div className="text-container">
-                <h2>Iván Antonio V. H.</h2>
-                <p className="text-justify font-mono">
+                <span className="text-5xl">Iván Antonio V. H.</span>
+                <p className="text-justify font-mono my-7">
                   Productivo, constantemente abierto a aprender nuevas
                   habilidades y dominar nuevas tecnologías. Con conocimiento
                   para el análisis y planificación, además de aplicación de la
@@ -20,13 +20,8 @@ export default function Description() {
                   ante cualquier desafío, además de aprender y crecer
                   profesionalmente. Buen desempeño y organización en equipo.
                 </p>
-                <br />
-                <p>Correo electronico</p>
-                <br />
-                <p>Contactame whatsapp</p>
-                <a href="/leadership-team" className="link"></a>
                 <svg
-                  width="20"
+                  width="15"
                   height="20"
                   viewBox="0 0 16 16"
                   fill="none"
@@ -40,6 +35,13 @@ export default function Description() {
                     strokeLinejoin="round"
                   />
                 </svg>
+
+                <div>
+                  <div className="container-button ">Correo electronico</div>
+                  <div className="container-button">Descargar CV</div>
+                </div>
+
+                <a href="/leadership-team" className="link"></a>
               </div>
               <div className="image-container"></div>
             </div>

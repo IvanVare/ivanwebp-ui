@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/styleNavBar.css";
+import { NavLink, Outlet } from "react-router-dom";
 export default function NavBarP() {
   return (
     <>
@@ -8,12 +9,14 @@ export default function NavBarP() {
           <div className="navBar">
             <ul>
               <li>
-                <div>Inicio</div>
+                <NavLink to="/inicio">Inicio</NavLink>
                 <li>
-                  <button>Github</button>
+                  <NavLink to="https://github.com/IvanVare">Github</NavLink>
                 </li>
                 <li>
-                  <button>Linkedin</button>
+                  <NavLink to="https://www.linkedin.com/in/iv%C3%A1n-varela-hern/">
+                    Linkedin
+                  </NavLink>
                 </li>
               </li>
               <li>
@@ -23,15 +26,15 @@ export default function NavBarP() {
                 ></img>
               </li>
               <li>
-                <button>Descargar CV</button>
                 <li>
-                  <button>Cambiar de tema</button>
+                  <a>Cambiar de tema</a>
                 </li>
               </li>
             </ul>
           </div>
         </nav>
       </div>
+      <Outlet />
     </>
   );
 }

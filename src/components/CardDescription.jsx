@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/styleCardDescription.css";
+import "../styles/styleTools.css";
 import iconback from "../assets/images/back.png";
 import iconfront from "../assets/images/front.png";
 import iconherramientas from "../assets/images/herramientas.png";
@@ -18,8 +19,17 @@ export default function CardDescription() {
                 alt=""
               />
             </div>
-            <h3 className="text-3xl font-bold mb-2  ">FontEnd</h3>
-            <p className="text-gray-400">Descripcion</p>
+            <div className="text-3xl font-bold mb-2">
+              <h3>FontEnd</h3>
+            </div>
+            <div className="grid gap-4 grid-cols-3 grid-rows-3  text-white">
+              <span className="bg-orange-600 rounded-lg">HTML5</span>
+              <span className="bg-yellow-500 rounded-lg">JavaScript</span>
+              <span className="bg-blue-500 rounded-lg">CSS3</span>
+              <span className="bg-blue-400 rounded-lg">Tailwind</span>
+              <span className="bg-blue-700 rounded-lg">React</span>
+              <span className="bg-purple-700 rounded-lg">Bootsrap</span>
+            </div>
           </div>
 
           <div className="cardBase">
@@ -30,8 +40,14 @@ export default function CardDescription() {
                 alt=""
               />
             </div>
-            <h3 className="text-3xl font-bold mb-2  ">BackEnd</h3>
-            <p className="text-gray-400">Descripcion</p>
+            <div className="text-3xl font-bold mb-2">
+              <h3>BackEnd</h3>
+            </div>
+            <div className="grid gap-4 grid-cols-2 grid-rows-3  text-white">
+              <span className="bg-orange-700 rounded-lg">Java</span>
+              <span className="bg-slate-600 rounded-lg">PHP</span>
+              <span className="bg-orange-500 rounded-lg">MySQL</span>
+            </div>
           </div>
 
           <div className="cardBase">
@@ -43,7 +59,12 @@ export default function CardDescription() {
               />
             </div>
             <h3 className="text-3xl font-bold mb-2  ">Herramientas</h3>
-            <p className="text-gray-400">Descripcion</p>
+            <div className="grid sm:gap-4 sm:grid-cols-2 sm:grid-rows-3  text-white">
+              <span className="bg-blue-600 rounded-lg">VisualStudio</span>
+              <span className="bg-pink-500 rounded-lg">Intellij</span>
+              <span className="bg-gray-500 rounded-lg">Netbeans</span>
+              <span className="bg-purple-800 rounded-lg">GitHub</span>
+            </div>
           </div>
         </div>
       </div>

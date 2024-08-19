@@ -26,3 +26,33 @@
   font-size: 1rem;
   margin-bottom: 20px;
 }
+
+.container-button {
+  background-color: blueviolet;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px auto; /* Centrando en pantalla */
+}
+
+/* Para pantallas medianas (mínimo 768px) */
+@media (min-width: 801px) {
+  .container-button {
+    margin: 15px 40%; /* Ajusta el margen según el tamaño de pantalla */
+  }
+}
+
+/* Para pantallas pequeñas (mínimo 640px) */
+@media (max-width: 800px) {
+  .container-button {
+    margin: 15px 30%; /* Ajusta el margen según el tamaño de pantalla */
+  }
+}
+
+.container-button:hover {
+  background-color: rgb(157, 92, 218);
+}
+
+.container-button:hover:active {
+  background-color: rgb(255, 0, 0);
+}
