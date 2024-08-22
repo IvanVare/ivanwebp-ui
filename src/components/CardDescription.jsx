@@ -9,7 +9,7 @@ export default function CardDescription() {
   return (
     <>
       <div className="container-card text-center">
-        <p>Skills</p>
+        <span className="font-bold text-3xl">Skills</span>
         <div className="container-cards-group grid md:gap-90px sm:gap-20 grid-cols-2  md:mx-40">
           <div className="cardBase">
             <div className="flex justify-center items-center h-24 mb-4">
@@ -59,7 +59,7 @@ export default function CardDescription() {
               />
             </div>
             <h3 className="text-3xl font-bold mb-2  ">Herramientas</h3>
-            <div className="grid sm:gap-4 sm:grid-cols-2 sm:grid-rows-3  text-white">
+            <div className="grid gap-4 grid-cols-2 grid-rows-3  text-white">
               <span className="bg-blue-600 rounded-lg">VisualStudio</span>
               <span className="bg-pink-500 rounded-lg">Intellij</span>
               <span className="bg-gray-500 rounded-lg">Netbeans</span>

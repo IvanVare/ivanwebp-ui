@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "DPA",
+    "description": "Es una aplicacion diseñada para llevar a cabo un control de pacientes con ansiedad.",
+    "linkGit": "https://github.com/Ivangodx2/dpa_app.git",
+    "linkProject": "#",
+    "src": "src/assets/images/appDPA.jpg"
+  },
+  {
+    "id": 2,
+    "title": "PaniKaSOS",
+    "description": "Es una aplicación diseñada para brindar apoyo inmediato en situaciones de emergencia o crisis.",
+    "linkGit": "https://github.com/IvanVare/AppBotonPanico_Repository.git",
+    "linkProject": "#",
+    "src": "src/assets/images/appPks.jpg"
+  },
+  {
+    "id": 3,
+    "title": "PaniKaSOS Web",
+    "description": "Pagina web para brindar mayor información a los usuarios sobre la aplicación PaniKaSOS ",
+    "linkGit": "https://github.com/IvanVare/web-panikasos.git",
+    "linkProject": "https://happy-grass-04205130f.5.azurestaticapps.net/",
+    "src": "src/assets/images/webPksos.png"
+  },
+  {
+    "id": 4,
+    "title": "Portafolio",
+    "description": "Portafolio web para mostrar mis habilidades, proyectos, y experiencia profesional de una manera visual y accesible.",
+    "linkGit": "https://github.com/IvanVare/Portafolio.git",
+    "linkProject": "#",
+    "src": "src/assets/images/portafolio.png"
+  }
+]

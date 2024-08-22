@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import ScrollReveal from "scrollreveal";
 import NavBarP from "../components/NavBarP";
 import Description from "../components/Description";
-import CardProject from "../components/CardProject";
+import CardsProject from "../components/CardsProject";
 import CardDescription from "../components/CardDescription";
 export default function Home() {
   const scrollR = ScrollReveal({
@@ -24,7 +24,7 @@ export default function Home() {
     <>
       <Description></Description>
       <CardDescription></CardDescription>
-      <CardProject />
+      <CardsProject />
     </>
   );
 }
