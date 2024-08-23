@@ -54,6 +54,5 @@
 }
 
 .container-button:hover:active {
-  background-color: rgb(255, 0, 0);
-  padding-bottom: 10px;
+  background-color: rgb(183, 147, 216);
 }
