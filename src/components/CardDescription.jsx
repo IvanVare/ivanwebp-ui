@@ -28,7 +28,7 @@ export default function CardDescription() {
               <span className="bg-blue-500 rounded-lg">CSS3</span>
               <span className="bg-blue-400 rounded-lg">Tailwind</span>
               <span className="bg-blue-700 rounded-lg">React</span>
-              <span className="bg-purple-700 rounded-lg">Bootsrap</span>
+              <span className="bg-purple-700 rounded-lg">Bootstrap</span>
             </div>
           </div>
 

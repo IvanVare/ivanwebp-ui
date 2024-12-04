@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/styleNavBar.css";
-import { NavLink, Outlet, Navigate, useNavigate } from "react-router-dom";
+import { NavLink, Outlet, useNavigate } from "react-router-dom";
 import iconGithub from "../assets/images/iconogithub.png";
 import iconLinkedin from "../assets/images/iconlinkedin.png";
 import { Button } from "@headlessui/react";
@@ -15,6 +15,8 @@ function classNames(...classes) {
 }
 
 export default function NavBarP() {
+  const navigate = useNavigate();
+
   return (
     <>
       <div className="navbar backdrop-blur-sm bg-black/30 fixed z-20">
@@ -48,7 +50,7 @@ export default function NavBarP() {
                 <NavLink to={"/inicio"}>Inicio</NavLink>
               </li>
               <li className="m-1">
-                <NavLink to={"/AcercaDe"}>Acerca de mí</NavLink>
+                <NavLink to="/acercade">Acerca de mí</NavLink>
               </li>
             </ul>
           </div>
