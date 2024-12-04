@@ -1,26 +1,34 @@
 import React from "react";
+import imgYo from "../../assets/images/duotone.png";
 
 export default function DescriptionAM() {
   return (
     <>
-      <div className="pt-20">
-        <div className="card bg-neutral text-neutral-content w-96">
-          <div className="card-body items-center text-center">
-            <h2 className="card-title">Cookies!</h2>
-            <p>We are using cookies for no reason.</p>
-            <div className="card-actions justify-end">
-              <button className="btn btn-primary">Accept</button>
-              <button className="btn btn-ghost">Deny</button>
+      <div>
+        <div className="min-h-screen ">
+          <div className="hero min-h-screen">
+            <div className="hero-content flex-col lg:flex-row-reverse">
+              <img src={imgYo} className="max-w-lg rounded-xl shadow-2xl" />
+              <div>
+                <span className="text-5xl font-bold">Sobre mí</span>
+                <p className="font-mono py-6">
+                  Soy una persona comprometida con su trabajo y me gusta
+                  gestionar mi tiempo, enfocada en encontrar soluciones
+                  efectivas a los desafíos. Me caracteriza el deseo de aprender
+                  y crecer profesionalmente, así como mi capacidad para
+                  desempeñarme de manera eficiente en equipo. Valoro la
+                  organización, la exactitud y la precisión, y disfruto
+                  compartir ideas y puntos de vista constructivos. Además, me
+                  apasiona la creatividad y la creación de nuevas ideas,
+                  proyectos y soluciones innovadoras.
+                </p>
+                <button className="btn btn-primary">
+                  Ponerse en contacto{" "}
+                </button>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <div>
-        , además de aplicación de la metodología CMMi en el desarrollo de
-        software, así como también de Scrum. Comprometido con el trabajo y
-        gestión del tiempo, siempre dispuesto a encontrar soluciones efectivas
-        ante cualquier desafío, además de aprender y crecer profesionalmente.
-        Buen desempeño y organización en equipo.
       </div>
     </>
   );
