@@ -32,30 +32,29 @@ export default function Description() {
         <div className="appcontent-section text-center ">
           <div className="text-container pt-40">
             <span className="text-5xl">Iván Antonio Varela Hernández</span>
-            <p className="text-justify font-mono my-7">
-              Productivo, constantemente abierto a aprender nuevas habilidades y
-              dominar nuevas tecnologías. Con conocimiento para el análisis y
-              planificación, además de aplicación de la metodología CMMi en el
-              desarrollo de software, así como también de Scrum. Comprometido
-              con el trabajo y gestión del tiempo, siempre dispuesto a encontrar
-              soluciones efectivas ante cualquier desafío, además de aprender y
-              crecer profesionalmente. Buen desempeño y organización en equipo.
-            </p>
-            <svg
-              width="15"
-              height="20"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M5 3L11 8L5 13"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
+            <div className="font-mono my-7 ">
+              <p>
+                Productivo, constantemente abierto a aprender nuevas habilidades
+                y dominar nuevas tecnologías. Con conocimiento para el análisis
+                y planificación.
+              </p>
+              <svg
+                width="15"
+                height="20"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="parpadea items-center"
+              >
+                <path
+                  d="M5 3L11 8L5 13"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
 
             <div>
               <div className="container-button" onClick={copiarEmail}>
@@ -63,7 +62,7 @@ export default function Description() {
               </div>
               {alertVisible && (
                 <div className="items-center">
-                  <Alert color="green" className="mx-96 px-5 p-2">
+                  <Alert color="green" className="bg-purple-400 mx-96 px-5 p-2">
                     Se guardó el correo electrónico en el portapapeles
                   </Alert>
                 </div>
@@ -73,7 +72,7 @@ export default function Description() {
                 Descargar CV
               </div>
               {alertDownload && (
-                <Alert color="green" className=" p-2 mx-96">
+                <Alert color="green" className="bg-purple-400 p-2 mx-96">
                   Descargando CV...
                 </Alert>
               )}

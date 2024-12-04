@@ -17,13 +17,13 @@ function classNames(...classes) {
 export default function NavBarP() {
   return (
     <>
-      <div className="navbar bg-gray-800 fixed z-20">
+      <div className="navbar backdrop-blur-sm bg-black/30 fixed z-20">
         <div className="navbar-start">
           <div className="dropdown ">
             <div
               tabIndex={0}
               role="button"
-              className="btn btn-ghost btn-circle"
+              className=" btn btn-ghost btn-square"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,7 @@ export default function NavBarP() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2  shadow"
+              className="menu menu-sm dropdown-content bg-black/50 rounded-box z-[1] mt-3 w-52 p-2  shadow"
             >
               <li className="m-1">
                 <NavLink to={"/inicio"}>Inicio</NavLink>
@@ -54,9 +54,8 @@ export default function NavBarP() {
           </div>
         </div>
         <div className="navbar-center">
-          <Button className="relative flex rounded-full bg-purple-800 text-sm focus:outline-none focus:ring-2 focus:ring-offset-purple-800">
+          <Button className="relative flex rounded-full bg-purple-800 text-sm focus:outline-none focus:ring-2 focus:ring-offset-purple-800 ">
             <span className="absolute -inset-1.5" />
-            <span className="sr-only">Open user menu</span>
             <img
               alt=""
               src="https://lh3.googleusercontent.com/a/ACg8ocIxYu08rV6HE-01SjeD5i8otyVFs71VfqDqy6cAjfJWjiI5rL-g=s288-c-no"

@@ -3,6 +3,18 @@ import "../styles/styleCardProject.css";
 import CardProject from "./CardProject";
 import projectJson from "../data/projects.json";
 
+import appDPA from "../assets/images/appDPA.jpg";
+import appPks from "../assets/images/appPks.jpg";
+import webPksos from "../assets/images/webPksos.png";
+import portafolio from "../assets/images/portafolio.png";
+
+const imageMap = {
+  "src/assets/images/appDPA.jpg": appDPA,
+  "src/assets/images/appPks.jpg": appPks,
+  "src/assets/images/webPksos.png": webPksos,
+  "src/assets/images/portafolio.png": portafolio,
+};
+
 export default function CardsProject() {
   return (
     <>
@@ -16,7 +28,7 @@ export default function CardsProject() {
                 description={projects.description}
                 linkGit={projects.linkGit}
                 linkProject={projects.linkProject}
-                src={projects.src}
+                src={imageMap[projects.src]}
               ></CardProject>
             </div>
           ))}
