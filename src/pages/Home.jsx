@@ -4,6 +4,7 @@ import NavBarP from "../components/NavBarP";
 import Description from "../components/Description";
 import CardsProject from "../components/CardsProject";
 import CardDescription from "../components/CardDescription";
+
 export default function Home() {
   const scrollR = ScrollReveal({
     distance: "150%",

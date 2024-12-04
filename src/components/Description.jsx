@@ -4,6 +4,7 @@ import "../styles/styleDescription.css";
 
 export default function Description() {
   const [alertVisible, setAlertVisible] = useState(false);
+  const [alertDownload, setAlertDownload] = useState(false);
   const copiarEmail = () => {
     const MyEmail = "ivanntonio@gmail.com";
     navigator.clipboard
@@ -18,12 +19,19 @@ export default function Description() {
         console.error("error al copiar el texto", error);
       });
   };
+
+  const descargarCV = () => {
+    setAlertDownload(true);
+    setTimeout(() => {
+      setAlertDownload(false);
+    }, 3000);
+  };
   return (
     <>
       <div className="min-h-screen ">
-        <div className="appcontent-section text-center">
-          <div className="text-container">
-            <span className="text-5xl">Iván Antonio V. H.</span>
+        <div className="appcontent-section text-center ">
+          <div className="text-container pt-40">
+            <span className="text-5xl">Iván Antonio Varela Hernández</span>
             <p className="text-justify font-mono my-7">
               Productivo, constantemente abierto a aprender nuevas habilidades y
               dominar nuevas tecnologías. Con conocimiento para el análisis y
@@ -54,12 +62,21 @@ export default function Description() {
                 Correo electrónico
               </div>
               {alertVisible && (
-                <Alert color="red" className="bg-green-500 p-2 mx-9">
-                  Se guardó el correo electrónico en el portapapeles.
-                </Alert>
+                <div className="items-center">
+                  <Alert color="green" className="mx-96 px-5 p-2">
+                    Se guardó el correo electrónico en el portapapeles
+                  </Alert>
+                </div>
               )}
 
-              <div className="container-button">Descargar CV</div>
+              <div className="container-button" onClick={descargarCV}>
+                Descargar CV
+              </div>
+              {alertDownload && (
+                <Alert color="green" className=" p-2 mx-96">
+                  Descargando CV...
+                </Alert>
+              )}
             </div>
 
             <a href="/leadership-team" className="link"></a>

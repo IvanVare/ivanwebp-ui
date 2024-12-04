@@ -34,6 +34,13 @@
   border-radius: 5px;
 }
 
+.container-alert {
+  background-color: green;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+}
+
 /* Para pantallas medianas (mínimo 768px) */
 @media (min-width: 801px) {
   .container-button {

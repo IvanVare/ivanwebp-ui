@@ -9,8 +9,8 @@ export default function CardDescription() {
   return (
     <>
       <div className="container-card text-center">
-        <span className="font-bold text-3xl">Skills</span>
-        <div className="container-cards-group grid md:gap-90px sm:gap-20 grid-cols-2  md:mx-40">
+        <span className="font-black text-4xl">Skills</span>
+        <div className=" container-cards-group grid grid-cols-1 gap-20  sm:grid-cols-2 md:gap-90px xl md:mx-40">
           <div className="cardBase">
             <div className="flex justify-center items-center h-24 mb-4">
               <img

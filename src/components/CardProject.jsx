@@ -12,9 +12,9 @@ export default function CardProject({
 }) {
   return (
     <>
-      <div className="bg-gray-800 text-white p-6 rounded-lg shadow-md bg-purple-950">
-        <div className="flex justify-center items-center bg-slate-900 h-28 mb-4 rounded-md">
-          <img className="h-28" src={src} alt="" />
+      <div className="bg-gray-800 text-white p-5 rounded-lg shadow-md bg-purple-950 m-10 ">
+        <div className="flex justify-center items-center bg-slate-900 h-40 mb-4 rounded-md">
+          <img className="h-40" src={src} alt="" />
         </div>
         <h3 className="text-xl font-bold mb-2">{title}</h3>
         <p className="text-gray-400 text-justify">{description}</p>
