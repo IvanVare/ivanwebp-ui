@@ -1,11 +1,9 @@
 import React, { useState } from "react";
-import { FaPaste } from "react-icons/fa";
 
 export default function EstudiosAM() {
   const [alertVisibleEmail, setAlertVisibleEmail] = useState(false);
   const [alertVisiblePhone, setAlertVisiblePhone] = useState(false);
   const [alertVisibleUbi, setAlertVisibleUbi] = useState(false);
-  const [alertDownload, setAlertDownload] = useState(false);
 
   const pasteEmail = () => {
     const MyEmail = "ivanntonio@gmail.com";
@@ -106,7 +104,6 @@ export default function EstudiosAM() {
                   className="btn btn-outline btn-xs btn-success "
                   onClick={pastePhone}
                 >
-                  <FaPaste />
                   Copiar
                 </button>
                 {alertVisiblePhone && (
@@ -136,7 +133,6 @@ export default function EstudiosAM() {
                     className="btn btn-outline btn-xs btn-success"
                     onClick={pasteEmail}
                   >
-                    <FaPaste />
                     Copiar
                   </button>
                   {alertVisibleEmail && (
@@ -165,7 +161,6 @@ export default function EstudiosAM() {
                     className="btn btn-outline btn-xs btn-success"
                     onClick={pasteUbication}
                   >
-                    <FaPaste />
                     Copiar
                   </button>
                   {alertVisibleUbi && (
