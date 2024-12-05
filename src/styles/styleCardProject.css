@@ -42,6 +42,18 @@
     brightness(100%);
 }
 
+.iconButton {
+  filter: brightness(0) invert(1);
+  width: 25px;
+  height: 25px;
+  margin: 10px 10px 0;
+}
+
+.iconButton:hover {
+  filter: invert(22%) sepia(80%) saturate(7480%) hue-rotate(265deg)
+    brightness(100%);
+}
+
 .iconLinkein {
   filter: brightness(0) invert(1);
   width: 35px;

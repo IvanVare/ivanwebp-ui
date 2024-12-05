@@ -174,28 +174,6 @@ export default function EstudiosAM() {
               </div>
             </div>
           </div>
-
-          <div class="relative p-6 rounded-2xl bg-white shadow dark:bg-purple-800">
-            <div class="space-y-2">
-              <div class="flex items-center space-x-2 rtl:space-x-reverse text-sm font-medium text-gray-500 dark:text-gray-400">
-                <span>Redes sociales</span>
-              </div>
-              <div class="grid grid-cols-4 md:gap-24 text-3xl dark:text-gray-100">
-                <button className="btn btn-outline btn-success rounded-full btn-info">
-                  FB
-                </button>
-                <button className="btn btn-outline btn-success rounded-full btn-info">
-                  TW
-                </button>
-                <button className="btn btn-outline btn-success rounded-full btn-info">
-                  LI
-                </button>
-                <button className="btn btn-outline btn-success rounded-full btn-info">
-                  GH
-                </button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </>
