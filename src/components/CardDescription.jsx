@@ -22,7 +22,7 @@ export default function CardDescription() {
             <div className="text-3xl font-bold mb-2">
               <h3>FontEnd</h3>
             </div>
-            <div className="grid gap-4 grid-cols-3 grid-rows-3  text-white">
+            <div className="grid gap-4 grid-cols-3 grid-rows-3 text-white">
               <span className="bg-orange-600 rounded-lg">HTML5</span>
               <span className="bg-yellow-500 rounded-lg">JavaScript</span>
               <span className="bg-blue-500 rounded-lg">CSS3</span>

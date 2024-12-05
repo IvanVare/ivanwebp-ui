@@ -61,10 +61,10 @@ export default function Description() {
                 Correo electrónico
               </div>
               {alertVisible && (
-                <div className="items-center">
-                  <Alert color="green" className="bg-purple-400 mx-96 px-5 p-2">
-                    Se guardó el correo electrónico en el portapapeles
-                  </Alert>
+                <div className="toast toast-end">
+                  <div className="alert alert-info">
+                    <span>New mail arrived.</span>
+                  </div>
                 </div>
               )}
 
@@ -72,9 +72,11 @@ export default function Description() {
                 Descargar CV
               </div>
               {alertDownload && (
-                <Alert color="green" className="bg-purple-400 p-2 mx-96">
-                  Descargando CV...
-                </Alert>
+                <div className="toast toast-end">
+                  <div className="alert alert-success">
+                    <span>Message sent successfully.</span>
+                  </div>
+                </div>
               )}
             </div>
 

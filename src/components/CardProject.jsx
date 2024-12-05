@@ -19,7 +19,7 @@ export default function CardProject({
         <h3 className="text-xl font-bold mb-2">{title}</h3>
         <p className="text-gray-400 text-justify">{description}</p>
 
-        <div class="icon-container">
+        <div class="icon-container ">
           <a href={linkProject} target="_blank">
             <img className="icon" src={iconEnlace} alt="" />
           </a>

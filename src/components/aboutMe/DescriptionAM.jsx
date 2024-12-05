@@ -8,7 +8,10 @@ export default function DescriptionAM() {
         <div className="min-h-screen ">
           <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
-              <img src={imgYo} className="max-w-lg rounded-xl shadow-2xl" />
+              <img
+                src={imgYo}
+                className="sm:min-w-lg md:max-w-lg rounded-xl shadow-2xl"
+              />
               <div>
                 <span className="text-5xl font-bold">Sobre mí</span>
                 <p className="font-mono py-6">
