@@ -2,32 +2,36 @@
   {
     "id": 1,
     "title": "DPA",
-    "description": "Es una aplicacion diseñada para llevar a cabo un control de pacientes con ansiedad.",
-    "linkGit": "https://github.com/Ivangodx2/dpa_app.git",
-    "linkProject": "#",
+    "description": "Aplicacion móvil diseñada para llevar a cabo un control de pacientes con ansiedad.",
+    "linkGitFrontEnd": "https://github.com/Ivangodx2/dpa_app.git",
+    "linkGitBackEnd": "",
+    "linkProject": "https://drive.google.com/drive/folders/10g1txgWVoMzPrNt9Svxib0n01oGsYjIt?usp=sharing",
     "src": "src/assets/images/appDPA.jpg"
   },
   {
     "id": 2,
-    "title": "PaniKaSOS",
-    "description": "Es una aplicación diseñada para brindar apoyo inmediato en situaciones de emergencia o crisis.",
-    "linkGit": "https://github.com/IvanVare/AppBotonPanico_Repository.git",
-    "linkProject": "#",
+    "title": "App PaniKaSOS",
+    "description": "Aplicación móvil diseñada para brindar apoyo inmediato en situaciones de emergencia.",
+    "linkGitFrontEnd": "https://github.com/IvanVare/app-panikasos.git",
+    "linkGitBackEnd": "https://github.com/IvanVare/app-panikasos-service.git",
+    "linkProject": "",
     "src": "src/assets/images/appPks.jpg"
   },
   {
     "id": 3,
-    "title": "PaniKaSOS Web",
+    "title": "Web PaniKaSOS",
     "description": "Pagina web para brindar mayor información a los usuarios sobre la aplicación PaniKaSOS ",
-    "linkGit": "https://github.com/IvanVare/web-panikasos.git",
-    "linkProject": "https://happy-grass-04205130f.5.azurestaticapps.net/",
+    "linkGitFrontEnd": "https://github.com/IvanVare/webpanikasos-ui.git",
+    "linkGitBackEnd": "https://github.com/IvanVare/webpanikasos-services.git",
+    "linkProject": "https://webpanikasosui.vercel.app/",
     "src": "src/assets/images/webPksos.png"
   },
   {
     "id": 4,
     "title": "Portafolio",
     "description": "Portafolio web para mostrar mis habilidades, proyectos, y experiencia profesional de una manera visual y accesible.",
-    "linkGit": "https://github.com/IvanVare/Portafolio.git",
+    "linkGitFrontEnd": "https://github.com/IvanVare/Portafolio.git",
+    "linkGitBackEnd": "",
     "linkProject": "#",
     "src": "src/assets/images/portafolio.png"
   }

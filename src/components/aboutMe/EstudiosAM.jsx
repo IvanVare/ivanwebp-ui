@@ -6,6 +6,8 @@ export default function EstudiosAM() {
   const [alertVisibleUbi, setAlertVisibleUbi] = useState(false);
 
   const pasteEmail = () => {
+    setAlertVisibleUbi(false);
+    setAlertVisiblePhone(false);
     const MyEmail = "ivanntonio@gmail.com";
     navigator.clipboard
       .writeText(MyEmail)
@@ -21,6 +23,8 @@ export default function EstudiosAM() {
   };
 
   const pastePhone = () => {
+    setAlertVisibleUbi(false);
+    setAlertVisibleEmail(false);
     const MyPhone = "+52 246 4934 066";
     navigator.clipboard
       .writeText(MyPhone)
@@ -36,6 +40,8 @@ export default function EstudiosAM() {
   };
 
   const pasteUbication = () => {
+    setAlertVisiblePhone(false);
+    setAlertVisibleEmail(false);
     const MyInfo = "Iván Antonio Varela Hernandez, Tlaxcala, tlax";
     navigator.clipboard
       .writeText(MyInfo)
@@ -89,8 +95,11 @@ export default function EstudiosAM() {
         </div>
       </div>
 
-      <div class="w-screen">
-        <div class="grid gap-4 lg:gap-8 md:grid-cols-3 p-5 pt-20">
+      <div class="w-auto py-20">
+        <div className="items-center justify-center content-center flex ">
+          <span className=" font-bold text-2xl">Información de contacto</span>
+        </div>
+        <div class="grid gap-4 lg:gap-8 md:grid-cols-3 p-5 ">
           <div class="relative p-6 rounded-2xl bg-white shadow dark:bg-purple-900">
             <div class="space-y-2">
               <div class="flex items-center space-x-2 rtl:space-x-reverse text-sm font-medium text-gray-500 dark:text-gray-400">
@@ -109,7 +118,7 @@ export default function EstudiosAM() {
                 {alertVisiblePhone && (
                   <div className="toast toast-end z-10">
                     <div className="alert alert-warning">
-                      <span>Numero telefonico copiado</span>
+                      <span>Número telefónico copiado</span>
                     </div>
                   </div>
                 )}
@@ -120,7 +129,7 @@ export default function EstudiosAM() {
           <div class="relative p-6 rounded-2xl bg-white shadow dark:bg-purple-900">
             <div class="space-y-2">
               <div class="flex items-center space-x-2 rtl:space-x-reverse text-sm font-medium text-gray-500 dark:text-gray-400">
-                <span>Correo electronico</span>
+                <span>Correo electrónico</span>
               </div>
 
               <div class="lg:text-3xl dark:text-gray-100">
@@ -138,7 +147,7 @@ export default function EstudiosAM() {
                   {alertVisibleEmail && (
                     <div className="toast toast-end z-10">
                       <div className="alert alert-warning">
-                        <span>Correo electronico copiado</span>
+                        <span>Correo electrónico copiado</span>
                       </div>
                     </div>
                   )}

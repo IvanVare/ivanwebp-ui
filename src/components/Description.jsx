@@ -5,7 +5,9 @@ import "../styles/styleDescription.css";
 export default function Description() {
   const [alertVisible, setAlertVisible] = useState(false);
   const [alertDownload, setAlertDownload] = useState(false);
+
   const copiarEmail = () => {
+    setAlertDownload(false);
     const MyEmail = "ivanntonio@gmail.com";
     navigator.clipboard
       .writeText(MyEmail)
@@ -21,7 +23,15 @@ export default function Description() {
   };
 
   const descargarCV = () => {
+    setAlertVisible(false);
     setAlertDownload(true);
+    /*const link = document.createElement("a");
+    link.href = "/android/PaniKaSOS_v1.0.apk"; // Ruta dentro de public/
+    link.download = "PaniKaSOS_v1.0.apk"; // Nombre al descargar
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);*/
+
     setTimeout(() => {
       setAlertDownload(false);
     }, 3000);
@@ -61,9 +71,9 @@ export default function Description() {
                 Correo electrónico
               </div>
               {alertVisible && (
-                <div className="toast toast-end">
-                  <div className="alert alert-info">
-                    <span>New mail arrived.</span>
+                <div className="toast toast-end z-50">
+                  <div className="alert font-bold bg-purple-600 border-purple-600">
+                    <span>Correo electrónico copiado</span>
                   </div>
                 </div>
               )}
@@ -72,9 +82,9 @@ export default function Description() {
                 Descargar CV
               </div>
               {alertDownload && (
-                <div className="toast toast-end">
-                  <div className="alert alert-success">
-                    <span>Message sent successfully.</span>
+                <div className="toast toast-end z-50">
+                  <div className="alert font-bold bg-purple-600 border-purple-900 shadow-lg">
+                    <span>Se inició la descarga...</span>
                   </div>
                 </div>
               )}

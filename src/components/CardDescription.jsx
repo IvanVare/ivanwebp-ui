@@ -8,7 +8,7 @@ import iconherramientas from "../assets/images/herramientas.png";
 export default function CardDescription() {
   return (
     <>
-      <div className="container-card text-center">
+      <div className="container-card text-center ">
         <span className="font-black text-4xl">Skills</span>
         <div className=" container-cards-group grid grid-cols-1 gap-20  sm:grid-cols-2 md:gap-90px xl md:mx-40">
           <div className="cardBase">
@@ -19,12 +19,12 @@ export default function CardDescription() {
                 alt=""
               />
             </div>
-            <div className="text-3xl font-bold mb-2">
+            <div className="text-3xl font-bold mb-2 text-white">
               <h3>FontEnd</h3>
             </div>
-            <div className="grid gap-4 grid-cols-3 grid-rows-3 text-white">
+            <div className="grid gap-4 grid-cols-2 lg:grid-cols-3 grid-rows-3 text-base lg:text-xl text-white">
               <span className="bg-orange-600 rounded-lg">HTML5</span>
-              <span className="bg-yellow-500 rounded-lg">JavaScript</span>
+              <span className="bg-yellow-600 rounded-lg">JavaScript</span>
               <span className="bg-blue-500 rounded-lg">CSS3</span>
               <span className="bg-blue-400 rounded-lg">Tailwind</span>
               <span className="bg-blue-700 rounded-lg">React</span>
@@ -40,10 +40,10 @@ export default function CardDescription() {
                 alt=""
               />
             </div>
-            <div className="text-3xl font-bold mb-2">
+            <div className="text-3xl font-bold  mb-2 text-white">
               <h3>BackEnd</h3>
             </div>
-            <div className="grid gap-4 grid-cols-2 grid-rows-3  text-white">
+            <div className="grid gap-4 grid-cols-2 grid-rows-3 text-base lg:text-xl text-white">
               <span className="bg-orange-700 rounded-lg">Java</span>
               <span className="bg-slate-600 rounded-lg">PHP</span>
               <span className="bg-orange-500 rounded-lg">MySQL</span>
@@ -58,8 +58,10 @@ export default function CardDescription() {
                 alt=""
               />
             </div>
-            <h3 className="text-3xl font-bold mb-2  ">Herramientas</h3>
-            <div className="grid gap-4 grid-cols-2 grid-rows-3  text-white">
+            <h3 className="text-3xl font-bold mb-2 text-white ">
+              Herramientas
+            </h3>
+            <div className="grid gap-4 grid-cols-2 grid-rows-3 text-base lg:text-xl text-white">
               <span className="bg-blue-600 rounded-lg">VisualStudio</span>
               <span className="bg-pink-500 rounded-lg">Intellij</span>
               <span className="bg-gray-500 rounded-lg">Netbeans</span>

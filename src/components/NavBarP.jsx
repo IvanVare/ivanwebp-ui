@@ -15,8 +15,6 @@ function classNames(...classes) {
 }
 
 export default function NavBarP() {
-  const navigate = useNavigate();
-
   return (
     <>
       <div className="navbar backdrop-blur-sm bg-black/30 fixed z-20">
@@ -56,14 +54,14 @@ export default function NavBarP() {
           </div>
         </div>
         <div className="navbar-center">
-          <Button className="relative flex rounded-full bg-purple-800 text-sm focus:outline-none focus:ring-2 focus:ring-offset-purple-800 ">
+          <label className="relative flex rounded-full bg-purple-800 text-sm focus:outline-none focus:ring-2 focus:ring-offset-purple-800 ">
             <span className="absolute -inset-1.5" />
             <img
-              alt=""
-              src="https://lh3.googleusercontent.com/a/ACg8ocIxYu08rV6HE-01SjeD5i8otyVFs71VfqDqy6cAjfJWjiI5rL-g=s288-c-no"
+              alt="Iván AVH"
+              src="https://lh3.googleusercontent.com/a/ACg8ocIxYu08rV6HE-01SjeD5i8otyVFs71VfqDqy6cAjfJWjiI5rL-g=s96-c-rg-br100"
               className="h-12 w-12 rounded-full"
             />
-          </Button>
+          </label>
         </div>
 
         <div className="navbar-end">

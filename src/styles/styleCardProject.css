@@ -37,6 +37,13 @@
   margin: 10px 50px 0 50px;
 }
 
+.iconshow {
+  filter: brightness(0) invert(1);
+  width: 35px;
+  height: 35px;
+  margin: 10px 50px 0 50px;
+}
+
 .icon:hover {
   filter: invert(22%) sepia(80%) saturate(7480%) hue-rotate(265deg)
     brightness(100%);
