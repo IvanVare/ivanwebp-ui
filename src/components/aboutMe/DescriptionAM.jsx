@@ -1,5 +1,6 @@
 import React from "react";
 import imgYo from "../../assets/images/duotone.png";
+import "../../styles/styleDescription.css";
 
 export default function DescriptionAM() {
   const handleScrollToBottom = () => {
@@ -29,7 +30,7 @@ export default function DescriptionAM() {
               constructivos. Además, me apasiona la creatividad y la creación de
               nuevas ideas, proyectos y soluciones innovadoras.
             </p>
-            <button className="btn btn-primary" onClick={handleScrollToBottom}>
+            <button className="container-button" onClick={handleScrollToBottom}>
               Ponerse en contacto
             </button>
           </div>

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Alert } from "@material-tailwind/react";
 import "../styles/styleDescription.css";
 
 export default function Description() {
@@ -25,12 +24,12 @@ export default function Description() {
   const descargarCV = () => {
     setAlertVisible(false);
     setAlertDownload(true);
-    /*const link = document.createElement("a");
-    link.href = "/android/PaniKaSOS_v1.0.apk"; // Ruta dentro de public/
-    link.download = "PaniKaSOS_v1.0.apk"; // Nombre al descargar
+    const link = document.createElement("a");
+    link.href = "/documents/CV-Ivan_Antonio_Varela_Hernandez.pdf"; // Ruta dentro de public/
+    link.download = "CV-Ivan_Antonio_Varela_Hernandez.pdf"; // Nombre al descargar
     document.body.appendChild(link);
     link.click();
-    document.body.removeChild(link);*/
+    document.body.removeChild(link);
 
     setTimeout(() => {
       setAlertDownload(false);
@@ -42,11 +41,17 @@ export default function Description() {
         <div className="appcontent-section text-center ">
           <div className="text-container pt-40">
             <span className="text-5xl">Iván Antonio Varela Hernández</span>
+            <br />
+            <span className="font-bold text-2xl mb-5">
+              Ingeniero de Software
+            </span>
             <div className="font-mono my-7 ">
-              <p>
-                Productivo, constantemente abierto a aprender nuevas habilidades
-                y dominar nuevas tecnologías. Con conocimiento para el análisis
-                y planificación.
+              <p className="mx-44">
+                Autodidacta con pasión por el aprendizaje continuo, productivo y
+                proactivo, abierto a adquirir nuevas habilidades. Pasión por el
+                análisis, la planicación y en la aplicación práctica de lo
+                aprendido. Disfruto explorar nuevas ideas y soluciones
+                innovadoras.
               </p>
               <svg
                 width="15"
@@ -72,18 +77,18 @@ export default function Description() {
               </div>
               {alertVisible && (
                 <div className="toast toast-end z-50">
-                  <div className="alert font-bold bg-purple-600 border-purple-600">
+                  <div className="alert font-bold bg-[#242ebd] border-[#0d1580] shadow-2xl">
                     <span>Correo electrónico copiado</span>
                   </div>
                 </div>
               )}
 
-              <div className="container-button" onClick={descargarCV}>
+              <div className="container-button " onClick={descargarCV}>
                 Descargar CV
               </div>
               {alertDownload && (
                 <div className="toast toast-end z-50">
-                  <div className="alert font-bold bg-purple-600 border-purple-900 shadow-lg">
+                  <div className="alert font-bold bg-[#242ebd] border-[#0d1580] shadow-2xl">
                     <span>Se inició la descarga...</span>
                   </div>
                 </div>

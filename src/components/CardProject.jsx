@@ -23,7 +23,7 @@ export default function CardProject({
 
   return (
     <>
-      <div className="bg-gray-800 text-white p-5 rounded-lg shadow-md bg-purple-950 m-10 ">
+      <div className="bg-gray-800 text-white p-5 rounded-lg shadow-2xl bg-[#0d158088] m-10">
         <div className="flex justify-center items-center bg-slate-900 h-40 mb-4 rounded-md">
           <img className="h-40" src={src} alt="" />
         </div>
@@ -45,8 +45,8 @@ export default function CardProject({
                 <img className="icon" src={iconEnlace} alt="" />
               </a>
               {alertWeb && (
-                <div className="toast toast-end z-10">
-                  <div className="alert font-bold bg-purple-600 border-purple-900 shadow-lg">
+                <div className="fixed toast toast-end z-50">
+                  <div className="alert font-bold bg-[#242ebd] border-[#0d1580] shadow-2xl">
                     <span>Revisar web panika sos para descargar</span>
                   </div>
                 </div>

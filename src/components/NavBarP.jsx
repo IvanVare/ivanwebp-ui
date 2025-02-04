@@ -42,13 +42,31 @@ export default function NavBarP() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-black/50 rounded-box z-[1] mt-3 w-52 p-2  shadow"
+              className="menu menu-sm dropdown-content rounded-box bg-black/30 z-[1] mt-3 w-52 p-2 shadow"
             >
               <li className="m-1">
-                <NavLink to={"/inicio"}>Inicio</NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "border-[#0d1580] border-2 bg-[#1929ff2f] text-white hover:bg-[#0d15808c] focus:outline-2 focus:outline-offset-2 focus:outline-[#0d1580] active:border-[#0d1580]"
+                      : " hover:outline-[#0d1580] focus:outline-2 focus:outline-offset-2 focus:outline-[#0d1580] active:bg-[#0d1580]"
+                  }
+                  to={"/inicio"}
+                >
+                  Inicio
+                </NavLink>
               </li>
               <li className="m-1">
-                <NavLink to="/acercade">Acerca de mí</NavLink>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive
+                      ? "border-[#0d1580] border-2 bg-[#1929ff2f] text-white hover:bg-[#0d15808c] focus:outline-1 focus:outline-offset-2 focus:outline-[#0d1580] active:border-[#0d1580]"
+                      : " hover:outline-[#0d1580] focus:outline-2 focus:outline-offset-2 focus:outline-[#0d1580] active:bg-[#0d1580]"
+                  }
+                  to="/acercade"
+                >
+                  Acerca de mí
+                </NavLink>
               </li>
             </ul>
           </div>

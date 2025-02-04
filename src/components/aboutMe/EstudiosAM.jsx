@@ -100,7 +100,7 @@ export default function EstudiosAM() {
           <span className=" font-bold text-2xl">Información de contacto</span>
         </div>
         <div class="grid gap-4 lg:gap-8 md:grid-cols-3 p-5 ">
-          <div class="relative p-6 rounded-2xl bg-white shadow dark:bg-purple-900">
+          <div class="relative p-6 rounded-2xl bg-white shadow dark:bg-[#242ebd] border-[#0d1580] border-x-8 shadow-2xl">
             <div class="space-y-2">
               <div class="flex items-center space-x-2 rtl:space-x-reverse text-sm font-medium text-gray-500 dark:text-gray-400">
                 <span>Número Telefonico</span>
@@ -110,7 +110,7 @@ export default function EstudiosAM() {
 
               <div class="flex items-center space-x-1 rtl:space-x-reverse text-sm font-medium ">
                 <button
-                  className="btn btn-outline btn-xs btn-success "
+                  className="btn btn-outline btn-xs btn-warning "
                   onClick={pastePhone}
                 >
                   Copiar
@@ -126,7 +126,7 @@ export default function EstudiosAM() {
             </div>
           </div>
 
-          <div class="relative p-6 rounded-2xl bg-white shadow dark:bg-purple-900">
+          <div class="relative p-6 rounded-2xl bg-white dark:bg-[#242ebd] border-[#0d1580] border-x-8 shadow-2xl">
             <div class="space-y-2">
               <div class="flex items-center space-x-2 rtl:space-x-reverse text-sm font-medium text-gray-500 dark:text-gray-400">
                 <span>Correo electrónico</span>
@@ -139,7 +139,7 @@ export default function EstudiosAM() {
               <div class="flex items-center space-x-1 rtl:space-x-reverse text-sm font-medium ">
                 <div class="flex items-center space-x-1 rtl:space-x-reverse text-sm font-medium text-green-600">
                   <button
-                    className="btn btn-outline btn-xs btn-success"
+                    className="btn btn-outline btn-xs btn-warning"
                     onClick={pasteEmail}
                   >
                     Copiar
@@ -156,7 +156,7 @@ export default function EstudiosAM() {
             </div>
           </div>
 
-          <div class="relative p-6 rounded-2xl bg-white shadow dark:bg-purple-900">
+          <div class="relative p-6 rounded-2xl bg-white dark:bg-[#242ebd] border-[#0d1580] border-x-8 shadow-2xl">
             <div class="space-y-2">
               <div class="flex items-center space-x-2 rtl:space-x-reverse text-sm font-medium text-gray-500 dark:text-gray-400">
                 <span>Ubicación</span>
@@ -167,7 +167,7 @@ export default function EstudiosAM() {
               <div class="flex items-center space-x-1 rtl:space-x-reverse text-sm font-medium text-green-600">
                 <div class="flex items-center space-x-1 rtl:space-x-reverse text-sm font-medium text-green-600">
                   <button
-                    className="btn btn-outline btn-xs btn-success"
+                    className="btn btn-outline btn-xs btn-warning"
                     onClick={pasteUbication}
                   >
                     Copiar

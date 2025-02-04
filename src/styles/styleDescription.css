@@ -75,7 +75,7 @@
 }
 
 .container-button {
-  background-color: blueviolet;
+  background-color: #242ebd;
   align-items: center;
   padding: 15px;
   border-radius: 5px;
@@ -103,10 +103,10 @@
 }
 
 .container-button:hover {
-  background-color: rgb(157, 92, 218);
+  background-color: #3c48f1;
   cursor: pointer;
 }
 
 .container-button:hover:active {
-  background-color: rgb(183, 147, 216);
+  background-color: #6570ff;
 }
