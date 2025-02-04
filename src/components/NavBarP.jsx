@@ -48,8 +48,8 @@ export default function NavBarP() {
                 <NavLink
                   className={({ isActive }) =>
                     isActive
-                      ? "border-[#0d1580] border-2 bg-[#1929ff2f] text-white hover:bg-[#0d15808c] focus:outline-2 focus:outline-offset-2 focus:outline-[#0d1580] active:border-[#0d1580]"
-                      : " hover:outline-[#0d1580] focus:outline-2 focus:outline-offset-2 focus:outline-[#0d1580] active:bg-[#0d1580]"
+                      ? "border-[#2631bd] border-2 bg-[#1929ff2f] text-white hover:bg-[#0d15808c] focus:outline-2 focus:outline-offset-2 focus:outline-[#0d1580] active:border-[#0d1580]"
+                      : " hover:outline-[#2631bd] focus:outline-2 focus:outline-offset-2 focus:outline-[#2631bd] active:bg-[#0d1580]"
                   }
                   to={"/inicio"}
                 >
@@ -60,8 +60,8 @@ export default function NavBarP() {
                 <NavLink
                   className={({ isActive }) =>
                     isActive
-                      ? "border-[#0d1580] border-2 bg-[#1929ff2f] text-white hover:bg-[#0d15808c] focus:outline-1 focus:outline-offset-2 focus:outline-[#0d1580] active:border-[#0d1580]"
-                      : " hover:outline-[#0d1580] focus:outline-2 focus:outline-offset-2 focus:outline-[#0d1580] active:bg-[#0d1580]"
+                      ? "border-[#2631bd] border-2 bg-[#1929ff2f] text-white hover:bg-[#0d15808c] focus:outline-1 focus:outline-offset-2 focus:outline-[#0d1580] active:border-[#0d1580]"
+                      : " hover:outline-[#2631bd] focus:outline-2 focus:outline-offset-2 focus:outline-[#2631bd] active:bg-[#0d1580]"
                   }
                   to="/acercade"
                 >

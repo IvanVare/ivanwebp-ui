@@ -46,7 +46,7 @@ export default function Description() {
               Ingeniero de Software
             </span>
             <div className="font-mono my-7 ">
-              <p className="mx-44">
+              <p className="mx-6 lg:mx-44">
                 Autodidacta con pasión por el aprendizaje continuo, productivo y
                 proactivo, abierto a adquirir nuevas habilidades. Pasión por el
                 análisis, la planicación y en la aplicación práctica de lo
